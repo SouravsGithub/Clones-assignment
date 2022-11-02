@@ -43,7 +43,13 @@ header nav > *,
 main > * {
   display: block;
 }
-
+body > aside + section section {
+  width: 33.3333%;
+  float: left;
+}
+body > aside + section section * {
+  display: block;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
