@@ -50,6 +50,18 @@ header nav > ul {
 header nav input {
   width: 100%;
 }
+
+main,
+main + section {
+  float: left;
+  width: 50%;
+  height: 350px;
+}
+main + section > section {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
